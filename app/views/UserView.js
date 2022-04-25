@@ -1,4 +1,5 @@
-const User = require ('./../views/user')
+const UserService = require ('./../views/userservice')
+
 
 class UserViews {
     static createUser (payload){
@@ -7,10 +8,12 @@ class UserViews {
             return{error: "El payload no existe."}
         } else if(typeof payload.username === 'string' && typeof payload.name === 'string' && typeof payload.id === 'number') {
             return UserService.create(payload.id, payload.username, payload.name)
-        } else {
+        } else{
             return {error: "Error, las propiedades del payload necesitan tener un valor valido"}
         }
     }
 }
+
+
 
 module.exports = UserViews
