@@ -4,7 +4,8 @@
   "description": "views",
   "main": "index.js",
   "scripts": {
-    "test": "views"
+    "test": "node ./node_modules/jest/bin/jest.js",
+    "start": "node ./app/views/user.js"
   },
   "repository": {
     "type": "git",
