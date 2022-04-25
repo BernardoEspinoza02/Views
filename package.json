@@ -1,0 +1,25 @@
+{
+  "name": "views",
+  "version": "1.0.0",
+  "description": "views",
+  "main": "index.js",
+  "scripts": {
+    "test": "views"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BernardoEspinoza02/Views.git"
+  },
+  "keywords": [
+    "viwes"
+  ],
+  "author": "Bernardo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BernardoEspinoza02/Views/issues"
+  },
+  "homepage": "https://github.com/BernardoEspinoza02/Views#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
